@@ -31,11 +31,11 @@ Software-Dev-Internship/
 
 ### Task 1 — Number Guessing Game
 
-| | |
-|---|---|
-| **Language** | Java 17 |
-| **Build** | Maven |
-| **Source** | [`Task1_GuessingGame.java`](Task%201/src/Task1_GuessingGame.java) |
+|              |                                                                   |
+| ------------ | ----------------------------------------------------------------- |
+| **Language** | Java 17                                                           |
+| **Build**    | Maven                                                             |
+| **Source**   | [`Task1_GuessingGame.java`](Task%201/src/Task1_GuessingGame.java) |
 
 A CLI game where the computer picks a random number and the player tries to guess it. Features three difficulty levels (Easy / Medium / Hard), input validation, hint system ("Too high" / "Too low"), and a persistent win/loss scoreboard across rounds.
 
@@ -48,11 +48,11 @@ mvn compile exec:java
 
 ### Task 2 — Number Pattern Generator
 
-| | |
-|---|---|
-| **Language** | Java 17 |
-| **Build** | Maven |
-| **Source** | [`Task2_NumberPatterns.java`](Task%202/src/Task2_NumberPatterns.java) |
+|              |                                                                       |
+| ------------ | --------------------------------------------------------------------- |
+| **Language** | Java 17                                                               |
+| **Build**    | Maven                                                                 |
+| **Source**   | [`Task2_NumberPatterns.java`](Task%202/src/Task2_NumberPatterns.java) |
 
 Generates four classic number patterns with user-configurable row counts (1–20):
 
@@ -70,11 +70,11 @@ mvn compile exec:java
 
 ### Task 3 — Task Manager (CRUD)
 
-| | |
-|---|---|
-| **Language** | C++17 |
-| **Build** | Gradle (cpp-application plugin) |
-| **Source** | [`Task3_TaskManager.cpp`](Task%203/src/main/cpp/Task3_TaskManager.cpp) |
+|              |                                                                        |
+| ------------ | ---------------------------------------------------------------------- |
+| **Language** | C++17                                                                  |
+| **Build**    | Gradle (cpp-application plugin)                                        |
+| **Source**   | [`Task3_TaskManager.cpp`](Task%203/src/main/cpp/Task3_TaskManager.cpp) |
 
 An in-memory task manager with full **Create, Read, Update, Delete** operations. Each task has an auto-incrementing ID, title, optional description, and done/pending status. The interactive menu-driven interface includes robust input validation.
 
@@ -89,11 +89,11 @@ gradle build
 
 ### Task 4 — Temperature Converter
 
-| | |
-|---|---|
-| **Language** | C++17 |
-| **Build** | Gradle (cpp-application plugin) |
-| **Source** | [`Task4_TemperatureConverter.cpp`](Task%204/src/main/cpp/Task4_TemperatureConverter.cpp) |
+|              |                                                                                          |
+| ------------ | ---------------------------------------------------------------------------------------- |
+| **Language** | C++17                                                                                    |
+| **Build**    | Gradle (cpp-application plugin)                                                          |
+| **Source**   | [`Task4_TemperatureConverter.cpp`](Task%204/src/main/cpp/Task4_TemperatureConverter.cpp) |
 
 A bidirectional temperature converter supporting **Fahrenheit ↔ Celsius** conversions. Results are formatted to two decimal places. Includes a looping menu for repeated conversions and full input validation.
 
@@ -108,11 +108,11 @@ gradle build
 
 ### Task 5 — Persistent Task Manager
 
-| | |
-|---|---|
-| **Language** | C# (.NET 8) |
-| **Build** | `dotnet` CLI |
-| **Source** | [`Program.cs`](Task%205/Program.cs) · [`TaskItem.cs`](Task%205/TaskItem.cs) · [`TaskManager.cs`](Task%205/TaskManager.cs) |
+|              |                                                                                                                           |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| **Language** | C# (.NET 8)                                                                                                               |
+| **Build**    | `dotnet` CLI                                                                                                              |
+| **Source**   | [`Program.cs`](Task%205/Program.cs) · [`TaskItem.cs`](Task%205/TaskItem.cs) · [`TaskManager.cs`](Task%205/TaskManager.cs) |
 
 An enhanced task manager that extends Task 3's CRUD functionality with **file-based persistence**. Tasks are automatically saved to and loaded from `tasks.txt` using a custom line-delimited format. Data survives application restarts. Features structured OOP architecture with separate model and manager classes.
 
@@ -125,12 +125,12 @@ dotnet run
 
 ### Task 6 — Interactive Web Scraper
 
-| | |
-|---|---|
-| **Language** | C# (.NET 8) |
-| **Build** | `dotnet` CLI |
-| **Dependency** | [HtmlAgilityPack](https://html-agility-pack.net/) v1.11.71 |
-| **Source** | [`Program.cs`](Task%206/Program.cs) · [`Scraper.cs`](Task%206/Scraper.cs) · [`Presenter.cs`](Task%206/Presenter.cs) |
+|                |                                                                                                                     |
+| -------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Language**   | C# (.NET 8)                                                                                                         |
+| **Build**      | `dotnet` CLI                                                                                                        |
+| **Dependency** | [HtmlAgilityPack](https://html-agility-pack.net/) v1.11.71                                                          |
+| **Source**     | [`Program.cs`](Task%206/Program.cs) · [`Scraper.cs`](Task%206/Scraper.cs) · [`Presenter.cs`](Task%206/Presenter.cs) |
 
 A fully interactive web scraper with four extraction modes:
 
@@ -152,22 +152,22 @@ dotnet run
 ## 🛠️ Tech Stack
 
 | Language | Version | Build Tool | Tasks |
-|:--------:|:-------:|:----------:|:-----:|
-| ☕ Java  | 17      | Maven      | 1, 2  |
-| ⚙️ C++   | 17      | Gradle     | 3, 4  |
-| 🟣 C#    | .NET 8  | dotnet CLI | 5, 6  |
+| :------: | :-----: | :--------: | :---: |
+| ☕ Java  |   17    |   Maven    | 1, 2  |
+|  ⚙️ C++  |   17    |   Gradle   | 3, 4  |
+|  🟣 C#   | .NET 8  | dotnet CLI | 5, 6  |
 
 ---
 
 ## 🚀 Prerequisites
 
-| Tool | Required For | Install |
-|------|-------------|---------|
-| **JDK 17+** | Tasks 1 & 2 | [adoptium.net](https://adoptium.net/) |
-| **Maven 3.8+** | Tasks 1 & 2 | [maven.apache.org](https://maven.apache.org/) |
-| **g++ / MSVC** | Tasks 3 & 4 | System C++ compiler |
-| **Gradle 7+** | Tasks 3 & 4 | [gradle.org](https://gradle.org/) |
-| **.NET 8 SDK** | Tasks 5 & 6 | [dotnet.microsoft.com](https://dotnet.microsoft.com/) |
+| Tool           | Required For | Install                                               |
+| -------------- | ------------ | ----------------------------------------------------- |
+| **JDK 17+**    | Tasks 1 & 2  | [adoptium.net](https://adoptium.net/)                 |
+| **Maven 3.8+** | Tasks 1 & 2  | [maven.apache.org](https://maven.apache.org/)         |
+| **g++ / MSVC** | Tasks 3 & 4  | System C++ compiler                                   |
+| **Gradle 7+**  | Tasks 3 & 4  | [gradle.org](https://gradle.org/)                     |
+| **.NET 8 SDK** | Tasks 5 & 6  | [dotnet.microsoft.com](https://dotnet.microsoft.com/) |
 
 ---
 
@@ -176,7 +176,3 @@ dotnet run
 This project is licensed under the **MIT License** — see the [`LICENSE`](LICENSE) file for details.
 
 ---
-
-<p align="center">
-  <sub>Built with ❤️ as part of a Software Development Internship</sub>
-</p>
