@@ -1,0 +1,9 @@
+plugins {
+    id 'cpp-application'
+}
+
+application {
+    baseName = 'task4-temperature-converter'
+    targetMachines.add(machines.windows.x86_64)
+    targetMachines.add(machines.linux.x86_64)
+}
