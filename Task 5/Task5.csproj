@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Internship.Task5</RootNamespace>
+    <AssemblyName>task5-persistent-task-manager</AssemblyName>
+  </PropertyGroup>
+
+</Project>
