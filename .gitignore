@@ -4,3 +4,11 @@
 #Maven
 target/
 *.class
+
+#.NET
+bin/
+obj/
+*.user
+
+#VS code
+.vscode
