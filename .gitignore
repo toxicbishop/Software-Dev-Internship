@@ -1,0 +1,6 @@
+#Claude
+.claude
+
+#Maven
+target/
+*.class
