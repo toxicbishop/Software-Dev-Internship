@@ -4,13 +4,13 @@
   <img src="https://img.shields.io/github/license/toxicbishop/Software-Dev-Internship?style=for-the-badge" alt="License Badge"/>
 </p>
 
-# 💻 Software Development Internship
+# Software Development Internship
 
 A collection of **six self-contained programming tasks** completed as part of a software development internship. Each task is implemented in a different language/framework to demonstrate versatility across the development stack.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 Software-Dev-Internship/
@@ -27,7 +27,7 @@ Software-Dev-Internship/
 
 ---
 
-## 🗂️ Task Overview
+## Task Overview
 
 ### Task 1 — Number Guessing Game
 
@@ -149,17 +149,17 @@ dotnet run
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Language | Version | Build Tool | Tasks |
 | :------: | :-----: | :--------: | :---: |
-| ☕ Java  |   17    |   Maven    | 1, 2  |
-|  ⚙️ C++  |   17    |   Gradle   | 3, 4  |
-|  🟣 C#   | .NET 8  | dotnet CLI | 5, 6  |
+|   Java   |   17    |   Maven    | 1, 2  |
+|   C++    |   17    |   Gradle   | 3, 4  |
+|    C#    | .NET 8  | dotnet CLI | 5, 6  |
 
 ---
 
-## 🚀 Prerequisites
+## Prerequisites
 
 | Tool           | Required For | Install                                               |
 | -------------- | ------------ | ----------------------------------------------------- |
@@ -171,7 +171,7 @@ dotnet run
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [`LICENSE`](LICENSE) file for details.
 
